@@ -115,7 +115,31 @@ nav .logo {
     align-self: -webkit-center;
 }
 
+@media only screen and (max-width:440px){
+    .container{
+        margin-top: 15px;
+        text-align: justify-all;
+        
+    }
+}
 
+@media only screen and (max-width:440px){
+    .container h3{
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        
+    }
+}
+
+@media only screen and (max-width:440px){
+    .container p{
+        text-align-last: left;
+        
+        
+    }
+}
 h1{
     font-weight: 500;
     
@@ -151,6 +175,7 @@ h3{
     .wrapper{
         display: block;
         align-content: center;
+        font-weight: 360px;
     }
 }
 
@@ -194,7 +219,7 @@ h3{
   background-image: url("Screenshot%202021-04-01%20at%2021.11.41.png");
 
   /* Set a specific height */
-  min-height: 400px; 
+  min-height: 300px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
