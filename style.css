@@ -25,7 +25,12 @@ nav .mainMenu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:440px){
+    nav .mainMenu li a {
+        font-size: 0.8rem;}
 }
 nav .mainMenu li a:hover {
     background: rgb(255,94,0);
@@ -53,41 +58,8 @@ nav .logo {
     width: 10px;
     margin-top: -25px;
 }
-@media(max-width: 100px){
-    nav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #1F2833;
-        transition: top 1s ease;
-        display: none;
-    }
-    nav .mainMenu .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
 
-    }
-    nav .openMenu {
-        display: block;
-    }
-    nav .mainMenu li a:hover {
-        background: none;
-        color: rgb(255, 123, 0);
-        font-size: 1.6rem;
-    }
-    .icons i {
-        display: inline-block;
-        padding: 12px;
-    }
-}
+    
 
 .main-image{
     margin-left: 35px;
@@ -120,19 +92,16 @@ nav .logo {
         margin-top: 15px;
         
     }
-}
 
-@media only screen and (max-width:440px){
+
     .container h3{
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;
         
         
-    }
 }
 
-@media only screen and (max-width:440px){
     .container p{
         text-align-last: left;
         
