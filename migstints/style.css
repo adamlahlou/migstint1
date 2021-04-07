@@ -25,7 +25,12 @@ nav .mainMenu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:440px){
+    nav .mainMenu li a {
+        font-size: 0.8rem;}
 }
 nav .mainMenu li a:hover {
     background: rgb(255,94,0);
@@ -53,41 +58,8 @@ nav .logo {
     width: 10px;
     margin-top: -25px;
 }
-@media(max-width: 800px){
-    nav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #1F2833;
-        transition: top 1s ease;
-        display: none;
-    }
-    nav .mainMenu .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
 
-    }
-    nav .openMenu {
-        display: block;
-    }
-    nav .mainMenu li a:hover {
-        background: none;
-        color: rgb(255, 123, 0);
-        font-size: 1.6rem;
-    }
-    .icons i {
-        display: inline-block;
-        padding: 12px;
-    }
-}
+    
 
 .main-image{
     margin-left: 35px;
@@ -115,6 +87,31 @@ nav .logo {
     align-self: -webkit-center;
 }
 
+@media only screen and (max-width:440px){
+    .container{
+        margin-top: 15px;
+    }
+    }
+
+
+    .container h3{
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        
+}
+
+    .container p {
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+        line-height: 25px;
+    text-align: justify;
+        
+        
+    }
+}
 
 h1{
     font-weight: 500;
@@ -133,16 +130,17 @@ h3{
 
 
 .left{
-    
-    padding: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
 }
 
 .right{
-    padding: 20px;
-    padding-right: 10%;
-    padding-left: 10%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding-top: 15px;
 }
 
 
@@ -151,6 +149,7 @@ h3{
     .wrapper{
         display: block;
         align-content: center;
+        font-weight: 360px;
     }
 }
 
@@ -161,7 +160,66 @@ h3{
     padding: 20px;
 }
 
+.about-section{
+    background: url(Screenshot%202021-04-01%20at%2021.11.41.png) no-repeat left;
+    background-size: 60%;
+    background-color: #1F2833;
+    overflow: hidden;
+    padding: 100px 0;
+}
 
+.inner-container{
+    width: 45%;
+    float: right;
+    background-color: #1F2833;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: whitesmoke;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 30px;
+    }
+}
 
 .textformat{
     padding: 8%;
@@ -189,18 +247,10 @@ h3{
 }
 
 
-.parallax{
-      /* The image used */
-  background-image: url("Screenshot%202021-04-01%20at%2021.11.41.png");
-
-  /* Set a specific height */
-  min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.contact img{
+    margin-left: 30%;
+    max-width: 33%;
+    
 }
 
 
