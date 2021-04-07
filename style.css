@@ -90,7 +90,7 @@ nav .logo {
 @media only screen and (max-width:440px){
     .container{
         margin-top: 15px;
-        
+    }
     }
 
 
@@ -102,8 +102,12 @@ nav .logo {
         
 }
 
-    .container p{
-        text-align-last: left;
+    .container p {
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+        line-height: 25px;
+    text-align: justify;
         
         
     }
@@ -126,16 +130,17 @@ h3{
 
 
 .left{
-    
-    padding: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
 }
 
 .right{
-    padding: 20px;
-    padding-right: 10%;
-    padding-left: 10%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding-top: 15px;
 }
 
 
@@ -155,7 +160,66 @@ h3{
     padding: 20px;
 }
 
+.about-section{
+    background: url(Screenshot%202021-04-01%20at%2021.11.41.png) no-repeat left;
+    background-size: 60%;
+    background-color: #1F2833;
+    overflow: hidden;
+    padding: 100px 0;
+}
 
+.inner-container{
+    width: 45%;
+    float: right;
+    background-color: #1F2833;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: whitesmoke;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 30px;
+    }
+}
 
 .textformat{
     padding: 8%;
@@ -183,23 +247,12 @@ h3{
 }
 
 
-.parallax{
-      /* The image used */
-  background-image: url("Screenshot%202021-04-01%20at%2021.11.41.png");
-
-  /* Set a specific height */
-  min-height: 300px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .contact img{
-    margin: 30%;
+    margin-left: 30%;
+    max-width: 33%;
+    
 }
+
 
 
 
