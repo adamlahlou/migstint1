@@ -165,11 +165,25 @@ h3{
 
                               
 .iframe-container iframe {
-    border: 0; height: 80%; left:0; position: absolute; top: 0; background-image: url(0d84edbd-831b-4a92-8f7d-d3002eab9765.JPG);
+    border: 2px solid yellow;
+    height: 80%; 
+    left:0; 
+    position: absolute;
+    top: 0;
+    background-image: url(0d84edbd-831b-4a92-8f7d-d3002eab9765.JPG);
     background-attachment: fixed;}
 
+@media only screen and (max-width:600px){
+    .iframe-container iframe { 
+        background-size: 0px;}
+}
+
 .iframe-container {
-    overflow: scroll; padding-top: 350px; padding-bottom: 50px; position: relative; width: auto;
+    overflow: scroll;
+    padding-top: 350px;
+    padding-bottom: 50px; 
+    position: relative; 
+    width: auto;
     color: darkblue;}
 
 
