@@ -176,7 +176,7 @@ color: white;
                               
 .iframe-container iframe {
     border: 2px solid yellow;
-    height: 95%; 
+    height: 500px; 
     position: absolute;
     top: 0;
     background-image: url(0d84edbd-831b-4a92-8f7d-d3002eab9765.JPG);
@@ -194,7 +194,8 @@ color: white;
 .iframe-container {
     overflow: scroll;
     padding-top: 350px;
-    padding-bottom: 50px; 
+    padding-bottom: 100px;
+    
     position: relative; 
     width: auto;
     color: darkblue;}
