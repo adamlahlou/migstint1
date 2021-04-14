@@ -6,10 +6,10 @@
 }
 body  {
     font-family: 'industry' , sans-serif;
-    background: #1F2833;
+    background: #E7EDF5;
 }
 nav {
-    background: #1F2833;
+    background: #E7EDF5;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ nav .mainMenu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
 }
 
@@ -69,13 +69,13 @@ nav .logo {
 
 
 .container{
-    color: white;
+    color: black;
     z-index: 2;
     padding: 35px;
     border-style: groove;
     border-radius: 16px;
     border; 0.3px;
-    background: #22354B;
+    background: #E7EDF5;
     margin: 30px;
     margin-left: 10%;
     margin-right: 10%;
@@ -134,7 +134,7 @@ h3{
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
-  color: yellow;
+  color: deepskyblue;
 }
 
 .right{
@@ -142,7 +142,7 @@ h3{
   margin-left: auto;
   margin-right: auto;
     padding-top: 15px;
-    color: yellow;
+    color: deepskyblue;
 }
 
 
@@ -168,7 +168,7 @@ h3{
   margin-right: auto;
  width: 70%;
 text-align: justify;
-color: white;
+color: black;
     
 }
 
@@ -186,7 +186,7 @@ color: white;
 
 @media only screen and (max-width:600px){
     .iframe-container iframe { 
-        background-color:#1F2833 ;
+        background-color:#E7EDF5 ;
         background-attachment: inherit;
         height: 500px;
     }
@@ -206,7 +206,7 @@ color: white;
 .about-section{
     background: url(Screenshot%202021-04-01%20at%2021.11.41.png) no-repeat left;
     background-size: 60%;
-    background-color: #1F2833;
+    background-color: #E7EDF5;
     overflow: hidden;
     padding: 100px 0;
 }
@@ -214,7 +214,7 @@ color: white;
 .inner-container{
     width: 45%;
     float: right;
-    background-color: #1F2833;
+    background-color: #E7EDF5;
     padding: 100px;
 }
 
@@ -226,7 +226,7 @@ color: white;
 
 .text{
     font-size: 13px;
-    color: whitesmoke;
+    color: black;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -266,12 +266,11 @@ color: white;
 
 .textformat{
     padding: 8%;
-    color: white;
     margin: auto;
 }
 
 .textformat h1{
-     color: ghostwhite;
+     color: black;
      width: 100px;
 }
 
@@ -299,7 +298,7 @@ color: white;
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#E7EDF5;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -316,7 +315,6 @@ color: white;
 }
 .site-footer h6
 {
-  color:#fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
