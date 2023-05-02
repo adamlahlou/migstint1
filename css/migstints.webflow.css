@@ -1129,7 +1129,7 @@ blockquote {
   font-weight: 500;
   display: flex;
   position: fixed;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .nav-brand-text {
@@ -1254,7 +1254,7 @@ blockquote {
 
 .hero-image {
   z-index: 64;
-  width: 66.6666%;
+  width: 56%;
   opacity: .66;
   padding-top: 0;
   position: absolute;
@@ -1502,10 +1502,10 @@ blockquote {
 
 .video-wrapper {
   z-index: 1;
-  width: 100%;
+  width: 40%;
   max-width: 90em;
-  opacity: .86;
-  background-image: url('../images/main-image.png');
+  opacity: .92;
+  background-image: url('../images/Group-2.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2214,7 +2214,7 @@ blockquote {
 
 .contact-detail-text {
   width: 390px;
-  color: #2e4a52;
+  color: #b4cfd6;
   font-size: .8em;
   line-height: 2.5;
   text-decoration: none;
@@ -3787,6 +3787,29 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+  .navbar {
+    margin-left: 0;
+    padding: 0 0 0 .9em;
+    overflow: hidden;
+  }
+
+  .button-icon {
+    width: 2.7em;
+    margin-bottom: 24px;
+    margin-left: 19px;
+    padding-bottom: 0;
+    padding-right: 8px;
+  }
+
+  .nav-menu-button {
+    width: 5.8em;
+    height: 2.8em;
+    clear: right;
+    border-radius: 0;
+    position: relative;
+    left: 0;
+  }
+
   .nav-brand-text {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -3814,8 +3837,9 @@ blockquote {
   }
 
   .hero-image {
-    width: 83.3332%;
+    width: 66%;
     opacity: .59;
+    right: 11%;
   }
 
   .hero-wrapper {
@@ -3829,7 +3853,9 @@ blockquote {
 
   .hero-section {
     background-color: #d8e7eb;
-    bottom: -10px;
+    padding-top: .7em;
+    bottom: -54px;
+    overflow: hidden;
   }
 
   .hero-title-text {
@@ -3840,7 +3866,7 @@ blockquote {
   }
 
   .features-section {
-    margin-top: 53px;
+    margin-top: 106px;
   }
 
   .features {
@@ -3850,8 +3876,11 @@ blockquote {
   }
 
   .video-wrapper {
-    background-image: url('../images/main-image.png');
+    width: 60%;
+    max-width: 90em;
+    background-image: url('../images/Group-2.png');
     background-size: contain;
+    margin-top: 4px;
   }
 
   .facts {
@@ -3878,7 +3907,27 @@ blockquote {
     font-size: 3.3em;
   }
 
-  .partners, .services {
+  .partners {
+    grid-template-columns: 1fr;
+  }
+
+  .button-icon-wrapper {
+    opacity: .9;
+    margin-bottom: 32px;
+  }
+
+  .contact-details {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .contact-detail-text {
+    color: #fff;
+    text-align: center;
+    padding-left: 6px;
+  }
+
+  .services {
     grid-template-columns: 1fr;
   }
 
@@ -3948,14 +3997,19 @@ blockquote {
   }
 
   .image-2 {
-    clear: right;
-    flex: 0 auto;
-    margin-left: 21px;
-    margin-right: 27px;
-    padding-right: 27px;
+    clear: none;
+    object-fit: fill;
+    flex: 1;
+    align-self: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    display: block;
     position: relative;
-    left: auto;
-    right: auto;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
   }
 
   .text-span-3 {
@@ -3969,10 +4023,15 @@ blockquote {
   .body {
     outline-offset: 0px;
     outline: 3px #102429;
+    overflow: visible;
+  }
+
+  .text-block {
+    margin-bottom: 25px;
   }
 }
 
-#w-node-c54f0980-ce54-93d6-e1bf-d0718b5744c7-77480187, #w-node-d09b6fa5-76d0-6c57-b129-c3aa35c17250-77480187, #w-node-_788bde1c-cf97-ae34-1b64-996b9069b60a-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe69-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe79-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe71-77480187, #w-node-_89319473-5009-5580-52dd-11adae9c6951-3c9c4d67, #w-node-ff8ba304-ffe4-8a41-2044-0104bcd932be-bcd932a6 {
+#w-node-d09b6fa5-76d0-6c57-b129-c3aa35c17250-77480187, #w-node-_788bde1c-cf97-ae34-1b64-996b9069b60a-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe69-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe79-77480187, #w-node-_14ef4554-e0d5-3dfa-7947-3045f3f4fe71-77480187, #w-node-_89319473-5009-5580-52dd-11adae9c6951-3c9c4d67, #w-node-ff8ba304-ffe4-8a41-2044-0104bcd932be-bcd932a6 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
